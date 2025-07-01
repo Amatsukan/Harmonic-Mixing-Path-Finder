@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Harmonic Path Finder</title>
+  <link rel="stylesheet" href="frontend/style.css" />
+</head>
+<body>
+  <h1>🎶 Harmonic Mixing Router</h1>
+
+  <form id="route-form">
+    <label>Origem: <input type="text" id="start" value="11A" /></label><br/>
+    <label>Destino: <input type="text" id="end" value="4A" /></label><br/>
+    <label>Evitar (separado por vírgulas): <input type="text" id="avoid" value="12A" /></label><br/>
+    <button type="submit">Calcular Rota</button>
+  </form>
+
+  <pre id="result"></pre>
+
+  <script src="frontend/app.js"></script>
+</body>
+</html>
